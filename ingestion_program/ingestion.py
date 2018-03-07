@@ -88,7 +88,7 @@ save_previous_results = False
 # If no arguments to run.py are provided, this is where the data will be found
 # and the results written to. Change the root_dir to your local directory.
 root_dir = "../"
-default_input_dir = root_dir + "sample_data"
+default_input_dir = root_dir + "../iris_data"
 default_output_dir = root_dir + "sample_result_submission"
 default_program_dir = root_dir + "ingestion_program"
 default_submission_dir = root_dir + "sample_code_submission"
@@ -107,6 +107,7 @@ import os
 from sys import argv, path
 import datetime
 the_date = datetime.datetime.now().strftime("%y-%m-%d-%H-%M")
+from glob import glob as ls
 
 # =========================== BEGIN PROGRAM ================================
 

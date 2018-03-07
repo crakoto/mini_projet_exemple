@@ -1,0 +1,17 @@
+(imodel
+model
+p0
+(dp1
+S'num_train_samples'
+p2
+I105
+sS'num_feat'
+p3
+I4
+sS'num_labels'
+p4
+I3
+sS'is_trained'
+p5
+I01
+sb.
